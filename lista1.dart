@@ -1,5 +1,8 @@
 void main() { 
 //Lista tipo entero de 3 elementos
+
+  print("Rogelio Bejarano 22380851281154 gpo 6J \n");
+
   List<int> numerios = [9, 199, 2];
   
   print("Lista de numeros enteros: $numerios");
