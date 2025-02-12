@@ -5,3 +5,7 @@ salida de datos del mapa
 Salida de datos de for each y for in
 
 ![alt text](image-2.png)
+
+Salida de datos con tablas de mi negocio
+
+![alt text](image-3.png)
