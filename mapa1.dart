@@ -13,10 +13,10 @@ void main () {
   };
   print("Mapa de enteros y cadenas: $Cliente");
 
-  print("iterar un map con forEach");
-  Cliente.forEach((key, value) => print("$value"));
+  print("iterar un map con forEach mostrando las 2 partes");
+  Cliente.forEach((key, value) => print("$key : $value"));
 
-  print("iterar un map con for in");
+  print("\niterar un map con for in mostrando solo una parte");
   for (var key in Cliente.keys) {
     print("${Cliente[key]}");
   }
@@ -34,10 +34,10 @@ void main () {
   };
   print("Mapa de enteros y cadenas: $Entrenador");
 
-  print("iterar un map con forEach");
-  Entrenador.forEach((key, value) => print("$value"));
+  print("iterar un map con forEach mostrando las 2 partes");
+  Entrenador.forEach((key, value) => print("$key : $value"));
 
-  print("iterar un map con for in");
+  print("\niterar un map con for in mostrando solo una parte");
   for (var key in Entrenador.keys) {
     print("${Entrenador[key]}");
   }

@@ -8,4 +8,4 @@ Salida de datos de for each y for in
 
 Salida de datos con tablas de mi negocio
 
-![alt text](image-3.png)
+![alt text](image-4.png)
