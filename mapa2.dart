@@ -41,8 +41,5 @@ void main () {
   for (var key in Entrenador.keys) {
     print("${Entrenador[key]}");
   }
-
-
   
-
 }
