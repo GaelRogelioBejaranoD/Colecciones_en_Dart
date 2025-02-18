@@ -94,7 +94,7 @@ class Membresia {
 
   @override
   String toString() {
-    return "id_membresia: $id_membresia\nid_cliente: $id_cliente\nduracion: $duracion\ntipo_membresia: $tipo_membresia\ncosto: $costo\ndescuentos: $descuentos\n";
+    return "Datos de la membresia:\n id_membresia: $id_membresia\nid_cliente: $id_cliente\nduracion: $duracion\ntipo_membresia: $tipo_membresia\ncosto: $costo\ndescuentos: $descuentos\n";
   }
 }
 
