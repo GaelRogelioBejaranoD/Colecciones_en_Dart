@@ -48,7 +48,7 @@ class Cliente {
   @override
   String toString() {
     print("\nDatos del cliente:");
-    return 'id_cliente: $id_cliente\n, nombre: $nombre\n, correo: $correo\n, telefono: $telefono\n, membresia_activa: $membresia_activa\n, dias_restantes_mem: $dias_restantes_mem\n, fecha_ingreso: $fecha_ingreso\n';
+    return 'id_cliente: $id_cliente\nnombre: $nombre\ncorreo: $correo\ntelefono: $telefono\nmembresia_activa: $membresia_activa\ndias_restantes_mem: $dias_restantes_mem\nfecha_ingreso: $fecha_ingreso\n';
   }
 }
 
@@ -94,7 +94,7 @@ class Membresia {
 
   @override
   String toString() {
-    return "id_membresia: $id_membresia\n, id_cliente: $id_cliente\n, duracion: $duracion\n, tipo_membresia: $tipo_membresia\n, costo: $costo\n, descuentos: $descuentos\n";
+    return "id_membresia: $id_membresia\nid_cliente: $id_cliente\nduracion: $duracion\ntipo_membresia: $tipo_membresia\ncosto: $costo\ndescuentos: $descuentos\n";
   }
 }
 
